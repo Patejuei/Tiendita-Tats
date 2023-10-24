@@ -27,9 +27,11 @@ def NewsCard() -> rx.Component:
                 ),
                 rx.text(
                     "Cantidad"
-                )
+                ),
+                width="100%",
             )
         ),
         padding = "2rem",
         background_color = "#D9D8A9",
+        border_radius = "12px",
     )
